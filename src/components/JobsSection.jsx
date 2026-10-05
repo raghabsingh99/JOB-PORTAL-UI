@@ -113,7 +113,7 @@ const JobsSection = () => {
             <button
               key={category}
               onClick={() => setActiveCategory(category)}
-              className={`relative group px-8 py-4 rounded-2xl text-sm font-bold transition-all duration-300 transform hover:scale-105 ${
+              className={`relative group px-4 sm:px-8 py-3 sm:py-4 rounded-2xl text-sm font-bold transition-all duration-300 transform hover:scale-105 ${
                 activeCategory === category
                   ? 'bg-gradient-to-r from-primary-600 via-purple-600 to-blue-600 text-white shadow-2xl shadow-primary-500/25'
                   : 'bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border-2 border-gray-200 dark:border-gray-700 hover:border-primary-400 dark:hover:border-primary-600'
@@ -127,11 +127,11 @@ const JobsSection = () => {
           ))}
         </div>
 
-        <div className="flex justify-between items-center mb-8">
+        <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-3 mb-8">
           <div className="text-sm text-gray-600 dark:text-gray-400">
             Showing {displayedJobs.length} of {filteredJobs.length} jobs
           </div>
-          <div className="flex gap-2">
+          <div className="flex flex-wrap gap-2">
             {filters.map((filter) => (
               <button
                 key={filter}
