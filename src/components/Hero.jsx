@@ -91,7 +91,7 @@ const Hero = () => {
                         <input
                           type="text"
                           placeholder="Job title, keywords, or company"
-                          className="w-full pl-14 pr-6 py-5 border border-gray-200 dark:border-gray-600 rounded-2xl focus:ring-4 focus:ring-primary-500/20 focus:border-primary-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 text-lg font-medium transition-all duration-300 hover:shadow-lg"
+                          className="w-full pl-14 pr-6 py-5 border border-gray-200 dark:border-gray-600 rounded-2xl focus:ring-4 focus:ring-primary-500/20 focus:border-primary-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 text-base lg:text-lg font-medium transition-all duration-300 hover:shadow-lg"
                           value={jobSearch}
                           onChange={(e) => setJobSearch(e.target.value)}
                           onKeyPress={handleKeyPress}
@@ -124,7 +124,7 @@ const Hero = () => {
                         <input
                           type="text"
                           placeholder="City, state, or country"
-                          className="w-full pl-14 pr-6 py-5 border border-gray-200 dark:border-gray-600 rounded-2xl focus:ring-4 focus:ring-primary-500/20 focus:border-primary-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 text-lg font-medium transition-all duration-300 hover:shadow-lg"
+                          className="w-full pl-14 pr-6 py-5 border border-gray-200 dark:border-gray-600 rounded-2xl focus:ring-4 focus:ring-primary-500/20 focus:border-primary-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 text-base lg:text-lg font-medium transition-all duration-300 hover:shadow-lg"
                           value={location}
                           onChange={(e) => setLocation(e.target.value)}
                           onKeyPress={handleKeyPress}
