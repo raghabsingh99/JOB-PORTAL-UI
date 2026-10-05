@@ -28,7 +28,7 @@ const CompaniesSection = () => {
   }
 
   return (
-    <section className="relative py-24 bg-gradient-to-br from-white via-primary-50/30 to-purple-50/30 dark:from-gray-800 dark:via-gray-900 dark:to-purple-950/20 overflow-hidden">
+    <section className="relative py-24 bg-gradient-to-br from-white via-primary-50/30 to-purple-50/30 dark:from-gray-800 dark:via-gray-900 dark:to-purple-950/20">
       {/* Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-1/4 right-0 w-72 h-72 bg-gradient-to-br from-primary-400/20 to-purple-400/20 rounded-full blur-3xl"></div>
