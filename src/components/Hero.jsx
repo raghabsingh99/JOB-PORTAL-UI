@@ -72,6 +72,7 @@ const Hero = () => {
                 <div className="relative backdrop-blur-xl bg-white/90 dark:bg-gray-800/90 rounded-3xl shadow-2xl border border-white/20 dark:border-gray-700/20 p-8">
                   <div className="flex flex-col lg:flex-row gap-4">
                     <div className="flex-1">
+                      <label htmlFor="hero-job-search" className="sr-only">Keywords</label>
                       <div className="relative group">
                         <div className="absolute inset-y-0 left-4 flex items-center">
                           <svg
@@ -89,6 +90,7 @@ const Hero = () => {
                           </svg>
                         </div>
                         <input
+                          id="hero-job-search"
                           type="text"
                           placeholder="Job title, keywords, or company"
                           className="w-full pl-14 pr-6 py-5 border border-gray-200 dark:border-gray-600 rounded-2xl focus:ring-4 focus:ring-primary-500/20 focus:border-primary-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 text-base lg:text-lg font-medium transition-all duration-300 hover:shadow-lg"
@@ -99,6 +101,7 @@ const Hero = () => {
                       </div>
                     </div>
                     <div className="flex-1">
+                      <label htmlFor="hero-location" className="sr-only">Location</label>
                       <div className="relative group">
                         <div className="absolute inset-y-0 left-4 flex items-center">
                           <svg
@@ -122,6 +125,7 @@ const Hero = () => {
                           </svg>
                         </div>
                         <input
+                          id="hero-location"
                           type="text"
                           placeholder="City, state, or country"
                           className="w-full pl-14 pr-6 py-5 border border-gray-200 dark:border-gray-600 rounded-2xl focus:ring-4 focus:ring-primary-500/20 focus:border-primary-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 text-base lg:text-lg font-medium transition-all duration-300 hover:shadow-lg"
