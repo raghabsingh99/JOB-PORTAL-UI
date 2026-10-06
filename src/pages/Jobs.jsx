@@ -227,11 +227,13 @@ const Jobs = () => {
               {/* Main Search */}
               <div className="flex flex-col lg:flex-row gap-4 mb-6">
                 <div className="flex-1">
+                  <label htmlFor="jobs-search-term" className="sr-only">Keywords</label>
                   <div className="relative">
                     <svg className="absolute left-4 top-4 h-6 w-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                     </svg>
                     <input
+                      id="jobs-search-term"
                       type="text"
                       placeholder="Job title, company, or keywords..."
                       className="w-full pl-12 pr-4 py-4 border border-gray-200 dark:border-gray-600 rounded-2xl focus:ring-4 focus:ring-primary-500/20 focus:border-primary-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 text-lg"
@@ -241,12 +243,14 @@ const Jobs = () => {
                   </div>
                 </div>
                 <div className="flex-1">
+                  <label htmlFor="jobs-location" className="sr-only">Location</label>
                   <div className="relative">
                     <svg className="absolute left-4 top-4 h-6 w-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                     </svg>
                     <input
+                      id="jobs-location"
                       type="text"
                       placeholder="City, state, or country..."
                       className="w-full pl-12 pr-4 py-4 border border-gray-200 dark:border-gray-600 rounded-2xl focus:ring-4 focus:ring-primary-500/20 focus:border-primary-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 text-lg"
