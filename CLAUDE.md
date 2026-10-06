@@ -89,7 +89,11 @@ style: fix spacing on mobile job list
 - **Named exports** preferred over default exports for components
 - Keep components focused — extract reusable pieces into `src/components/`
 
+### Styling
 
+- Use **Tailwind CSS utility classes** exclusively — no inline styles, no CSS modules
+- Follow mobile-first responsive design (`sm:`, `md:`, `lg:` breakpoints)
+- Dark mode via `ThemeContext` — use conditional class toggling, not `dark:` variants
 
 ### State & Data
 

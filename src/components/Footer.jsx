@@ -141,17 +141,35 @@ const Footer = () => {
 
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex flex-wrap justify-center md:justify-start gap-6 text-sm text-gray-400 mb-6 md:mb-0">
-              <a className="group relative hover:text-white transition-colors duration-300">
+              <a className="group relative hover:text-white transition-colors duration-300 cursor-pointer">
                 <span className="relative z-10">Privacy Policy</span>
-                <div className="absolute inset-0 bg-gradient-to-r from-primary-600/20 to-purple-600/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 -inset-2"></div>
+                <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-56 opacity-0 pointer-events-none group-hover:opacity-100 transition-opacity duration-200 z-50">
+                  <div className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg shadow-lg p-3 text-xs text-gray-700 dark:text-gray-300 text-center leading-relaxed">
+                    We handle your personal data with care. Read how we collect and protect it.
+                  </div>
+                  <div className="w-2 h-2 bg-white dark:bg-gray-800 border-r border-b border-gray-200 dark:border-gray-700 rotate-45 mx-auto -mt-1"></div>
+                </div>
+                <div className="absolute -inset-2 bg-gradient-to-r from-primary-600/10 to-purple-600/10 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </a>
-              <a className="group relative hover:text-white transition-colors duration-300">
+              <a className="group relative hover:text-white transition-colors duration-300 cursor-pointer">
                 <span className="relative z-10">Terms of Service</span>
-                <div className="absolute inset-0 bg-gradient-to-r from-primary-600/20 to-purple-600/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 -inset-2"></div>
+                <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-56 opacity-0 pointer-events-none group-hover:opacity-100 transition-opacity duration-200 z-50">
+                  <div className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg shadow-lg p-3 text-xs text-gray-700 dark:text-gray-300 text-center leading-relaxed">
+                    Your use of JobPortal is governed by these terms. Please review them carefully.
+                  </div>
+                  <div className="w-2 h-2 bg-white dark:bg-gray-800 border-r border-b border-gray-200 dark:border-gray-700 rotate-45 mx-auto -mt-1"></div>
+                </div>
+                <div className="absolute -inset-2 bg-gradient-to-r from-primary-600/10 to-purple-600/10 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </a>
-              <a className="group relative hover:text-white transition-colors duration-300">
+              <a className="group relative hover:text-white transition-colors duration-300 cursor-pointer">
                 <span className="relative z-10">Cookie Policy</span>
-                <div className="absolute inset-0 bg-gradient-to-r from-primary-600/20 to-purple-600/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 -inset-2"></div>
+                <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-56 opacity-0 pointer-events-none group-hover:opacity-100 transition-opacity duration-200 z-50">
+                  <div className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg shadow-lg p-3 text-xs text-gray-700 dark:text-gray-300 text-center leading-relaxed">
+                    We use cookies to improve your experience and personalise content.
+                  </div>
+                  <div className="w-2 h-2 bg-white dark:bg-gray-800 border-r border-b border-gray-200 dark:border-gray-700 rotate-45 mx-auto -mt-1"></div>
+                </div>
+                <div className="absolute -inset-2 bg-gradient-to-r from-primary-600/10 to-purple-600/10 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </a>
               <Link
                 to="/contact"
